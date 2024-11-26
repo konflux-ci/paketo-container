@@ -43,6 +43,8 @@ spec:
       value: "false"
     - name: cachi2-log-level
       value: "debug"
+    - name: build-image-index
+      value: "false"
   pipelineRef:
     name: build-pipeline
   workspaces:
