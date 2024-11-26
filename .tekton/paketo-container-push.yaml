@@ -8,7 +8,6 @@ metadata:
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
       == "main"
-  creationTimestamp: null
   labels:
     appstudio.openshift.io/application: paketo-container
     appstudio.openshift.io/component: paketo-container
@@ -21,6 +20,8 @@ spec:
     value: '{{source_url}}'
   - name: revision
     value: '{{revision}}'
+  - name: enableSymlinkCheck
+    value: "false"
   - name: output-image
     value: quay.io/redhat-user-workloads/cmoullia-tenant/paketo-container:{{revision}}
   - name: dockerfile
@@ -139,6 +140,8 @@ spec:
         value: $(params.git-url)
       - name: revision
         value: $(params.revision)
+      - name: enableSymlinkCheck
+        value: $(params.enableSymlinkCheck)
       - name: ociStorage
         value: $(params.output-image).git
       - name: ociArtifactExpiresAfter
