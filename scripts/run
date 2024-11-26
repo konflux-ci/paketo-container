@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# $@ refers to all the arguments passed to the script
+# Execute the command passed to the script
+"$@"

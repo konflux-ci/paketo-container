@@ -1,0 +1,20 @@
+[submodule "pack"]
+	path = pack
+	url = https://github.com/redhat-buildpacks/fork-pack.git
+	branch = bump-go-version
+[submodule "jam"]
+	path = jam
+	url = https://github.com/redhat-buildpacks/fork-jam.git
+[submodule "create-package"]
+	path = create-package
+	url = https://github.com/redhat-buildpacks/fork-libpak.git
+	branch = bump-go-version
+[submodule "toml"]
+	path = toml
+	url = https://github.com/pelletier/go-toml.git
+[submodule "cosign"]
+	path = cosign
+	url = https://github.com/sigstore/cosign.git
+[submodule "syft"]
+	path = syft
+	url = https://github.com/anchore/syft.git

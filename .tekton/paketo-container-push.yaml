@@ -1,0 +1,57 @@
+apiVersion: tekton.dev/v1
+kind: PipelineRun
+metadata:
+  annotations:
+    build.appstudio.openshift.io/repo: https://github.com/redhat-buildpacks/paketo-container?rev={{revision}}
+    build.appstudio.redhat.com/commit_sha: '{{revision}}'
+    build.appstudio.redhat.com/target_branch: '{{target_branch}}'
+    pipelinesascode.tekton.dev/max-keep-runs: "3"
+    pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
+      == "main"
+  labels:
+    appstudio.openshift.io/application: paketo-container
+    appstudio.openshift.io/component: paketo-container
+    pipelines.appstudio.openshift.io/type: build
+  name: paketo-container-on-
+  namespace: cmoullia-tenant
+spec:
+  params:
+  - name: dockerfile
+    value: Containerfile
+  - name: git-url
+    value: '{{source_url}}'
+  - name: output-image
+    value: quay.io/redhat-user-workloads/cmoullia-tenant/paketo-container/paketo-container:{{revision}}
+  - name: path-context
+    value: .
+  - name: revision
+    value: '{{revision}}'
+  - name: prefetch-input
+    value: |
+     [{"type": "gomod", "path": "toml"},
+      {"type": "gomod", "path": "jam"},
+      {"type": "gomod", "path": "create-package"},
+      {"type": "gomod", "path": "pack"},
+      {"type": "rpm", "path": "."}]
+  - name: hermetic
+    value: true
+  - name: dev-package-managers
+    value: "true"
+  - name: enableSymlinkCheck
+    value: "false"
+  - name: cachi2-log-level
+    value: "debug"
+  pipelineRef:
+    name: build-pipeline
+  workspaces:
+    - name: workspace
+      volumeClaimTemplate:
+        spec:
+          accessModes:
+            - ReadWriteOnce
+          resources:
+            requests:
+              storage: 1Gi
+    - name: git-auth
+      secret:
+        secretName: '{{ git_auth_secret }}'
