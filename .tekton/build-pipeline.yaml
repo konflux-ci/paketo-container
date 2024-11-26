@@ -28,7 +28,7 @@ spec:
           - name: name
             value: git-clone-oci-ta
           - name: bundle
-            value: quay.io/redhat-appstudio-tekton-catalog/task-git-clone-oci-ta:0.1@sha256:a345bdb08a4bfd6e6984195014e0afd649c1aaeb0dc084b52a03252b9f2996a9
+            value: quay.io/redhat-appstudio-tekton-catalog/task-git-clone-oci-ta:0.1@sha256:4bf48d038ff12d25bdeb5ab3e98dc2271818056f454c83d7393ebbd413028147
           - name: kind
             value: task
       when:
