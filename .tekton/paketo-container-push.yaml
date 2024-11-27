@@ -21,7 +21,7 @@ spec:
     - name: git-url
       value: '{{source_url}}'
     - name: output-image
-      value: quay.io/redhat-user-workloads/rhtap-build-tenant/paketo-container:{{revision}}
+      value: quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/paketo-container:{{revision}}
     - name: path-context
       value: .
     - name: revision
