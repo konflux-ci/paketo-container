@@ -64,6 +64,8 @@ spec:
           value: $(params.image-expires-after)
         - name: dev-package-managers
           value: $(params.prefetch-dev-package-managers-enabled)
+        - name: log-level
+          value: "debug"
       runAfter:
         - clone-repository
       taskRef:
