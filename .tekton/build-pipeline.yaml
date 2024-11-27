@@ -62,6 +62,8 @@ spec:
           value: $(params.output-image).prefetch
         - name: ociArtifactExpiresAfter
           value: $(params.image-expires-after)
+        - name: dev-package-managers
+          value: $(params.prefetch-dev-package-managers-enabled)
       runAfter:
         - clone-repository
       taskRef:
