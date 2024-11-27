@@ -2,539 +2,539 @@
 lockfileVersion: 1
 lockfileVendor: redhat
 arches:
-  - arch: x86_64
-    packages:
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/a/aardvark-dns-1.10.0-1.fc40.x86_64.rpm
-        repoid: fedora
-        size: 893471
-        checksum: sha256:a1d1bd1e3dd3f133c984039219a05703cb38b073daf8a864bd95805747633103
-        name: aardvark-dns
-        evr: 1.10.0-1.fc40
-        sourcerpm: aardvark-dns-1.10.0-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/b/binutils-2.41-34.fc40.x86_64.rpm
-        repoid: fedora
-        size: 6547347
-        checksum: sha256:eebdce4bf9ee035a4a1a32ca39277b24333f54b3594483650fa5f15e55598dd2
-        name: binutils
-        evr: 2.41-34.fc40
-        sourcerpm: binutils-2.41-34.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/b/binutils-gold-2.41-34.fc40.x86_64.rpm
-        repoid: fedora
-        size: 800383
-        checksum: sha256:ad301dd621accbad679cf89361b76668aef06c47d297e04a71224fd14efdd786
-        name: binutils-gold
-        evr: 2.41-34.fc40
-        sourcerpm: binutils-2.41-34.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/catatonit-0.1.7-22.fc40.x86_64.rpm
-        repoid: fedora
-        size: 329545
-        checksum: sha256:99d4976979c8b9d18c9d2d686de77882dc6a4e72ebfe358fb9a37a83f0ecdc90
-        name: catatonit
-        evr: 0.1.7-22.fc40
-        sourcerpm: catatonit-0.1.7-22.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/conmon-2.1.10-1.fc40.x86_64.rpm
-        repoid: fedora
-        size: 53632
-        checksum: sha256:ef93475ea699c80bb8e49b5a80fefeed23e553b0e492d74748a55958b4dde568
-        name: conmon
-        evr: 2:2.1.10-1.fc40
-        sourcerpm: conmon-2.1.10-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/containers-common-0.58.0-2.fc40.noarch.rpm
-        repoid: fedora
-        size: 101685
-        checksum: sha256:542e8c11b3af4c4bbbe2e8911c9f9dac12620d20be15011561cb3791165562c5
-        name: containers-common
-        evr: 5:0.58.0-2.fc40
-        sourcerpm: containers-common-0.58.0-2.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/containers-common-extra-0.58.0-2.fc40.noarch.rpm
-        repoid: fedora
-        size: 12685
-        checksum: sha256:483e8966b8f25fd5508ebe01a8b4fed75fd4c5105ba5d71284322ac3d3500b7b
-        name: containers-common-extra
-        evr: 5:0.58.0-2.fc40
-        sourcerpm: containers-common-0.58.0-2.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/cpp-14.0.1-0.15.fc40.x86_64.rpm
-        repoid: fedora
-        size: 12556102
-        checksum: sha256:85e8c7e8cf69ded9fad3370a2995ce68edbcafc67c4fce21e7ce3baa4c8fdbf9
-        name: cpp
-        evr: 14.0.1-0.15.fc40
-        sourcerpm: gcc-14.0.1-0.15.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/criu-3.19-4.fc40.x86_64.rpm
-        repoid: fedora
-        size: 573701
-        checksum: sha256:e4407cbfeb01494457e941a56971ec3aefbd35206792918d60fc9417acacd1a8
-        name: criu
-        evr: 3.19-4.fc40
-        sourcerpm: criu-3.19-4.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/criu-libs-3.19-4.fc40.x86_64.rpm
-        repoid: fedora
-        size: 33336
-        checksum: sha256:6dd4fe61a462d20fd6fc07ecf8bf47198cc24733d82fe0e46ed4d5f988dffef4
-        name: criu-libs
-        evr: 3.19-4.fc40
-        sourcerpm: criu-3.19-4.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/crun-1.14.4-1.fc40.x86_64.rpm
-        repoid: fedora
-        size: 234779
-        checksum: sha256:8a86435bf7382475bc7366b5dbf741e549c23b16c3430fecf9b84f3a1e6c9e88
-        name: crun
-        evr: 1.14.4-1.fc40
-        sourcerpm: crun-1.14.4-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/e/elfutils-debuginfod-client-0.191-4.fc40.x86_64.rpm
-        repoid: fedora
-        size: 39390
-        checksum: sha256:877c66844c68044b2a29b5d7465eb97f429e9f38b56ebaa16d766c0979e93a80
-        name: elfutils-debuginfod-client
-        evr: 0.191-4.fc40
-        sourcerpm: elfutils-0.191-4.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/e/elfutils-libelf-0.191-4.fc40.x86_64.rpm
-        repoid: fedora
-        size: 214836
-        checksum: sha256:c1eca14924981b987f9b17c01a97511d641f49ac6b2b0f2d8e83563343932302
-        name: elfutils-libelf
-        evr: 0.191-4.fc40
-        sourcerpm: elfutils-0.191-4.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/e/elfutils-libs-0.191-4.fc40.x86_64.rpm
-        repoid: fedora
-        size: 266119
-        checksum: sha256:d7d1ed3fca0696b8c38effe21bc70c84a94cb66c0b59bb1980c0f455d23b7fec
-        name: elfutils-libs
-        evr: 0.191-4.fc40
-        sourcerpm: elfutils-0.191-4.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/e/emacs-filesystem-29.2-3.fc40.noarch.rpm
-        repoid: fedora
-        size: 7968
-        checksum: sha256:072f0f0070c00ddb6cb82ba1e20fac178ffffefdeddb4b56374aadb96b752f3e
-        name: emacs-filesystem
-        evr: 1:29.2-3.fc40
-        sourcerpm: emacs-29.2-3.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/f/fuse-common-3.16.2-3.fc40.x86_64.rpm
-        repoid: fedora
-        size: 8888
-        checksum: sha256:f4c2d51c7b4577f7b7ef498f8e2afb1b007da2de00cca28e220f50129c40a48c
-        name: fuse-common
-        evr: 3.16.2-3.fc40
-        sourcerpm: fuse3-3.16.2-3.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/f/fuse-overlayfs-1.13-1.fc40.x86_64.rpm
-        repoid: fedora
-        size: 68491
-        checksum: sha256:8fe84b7e0319afcc9c9eb28130b74e0cd7c675667a6ce075eb7ee2ec1b0014c2
-        name: fuse-overlayfs
-        evr: 1.13-1.fc40
-        sourcerpm: fuse-overlayfs-1.13-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/f/fuse3-3.16.2-3.fc40.x86_64.rpm
-        repoid: fedora
-        size: 59386
-        checksum: sha256:2d6631d65e3b5c91afdb100a51ee8e50294f0e074a944c1662008d878d47456e
-        name: fuse3
-        evr: 3.16.2-3.fc40
-        sourcerpm: fuse3-3.16.2-3.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/f/fuse3-libs-3.16.2-3.fc40.x86_64.rpm
-        repoid: fedora
-        size: 95506
-        checksum: sha256:a9c6502a5b190aaf169e93afd337c009e0b2e235e31f3da23d29c7d063ad2ff9
-        name: fuse3-libs
-        evr: 3.16.2-3.fc40
-        sourcerpm: fuse3-3.16.2-3.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gc-8.2.2-6.fc40.x86_64.rpm
-        repoid: fedora
-        size: 112880
-        checksum: sha256:641494edfcaad3ca02445dafa37b652efa7c188f40e09d50445a4b5d6d7965df
-        name: gc
-        evr: 8.2.2-6.fc40
-        sourcerpm: gc-8.2.2-6.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gcc-14.0.1-0.15.fc40.x86_64.rpm
-        repoid: fedora
-        size: 39014395
-        checksum: sha256:1039377bc27e3ae4b566e91a3fa2628354608bc14a80d88a894136432570d63b
-        name: gcc
-        evr: 14.0.1-0.15.fc40
-        sourcerpm: gcc-14.0.1-0.15.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gettext-0.22.5-2.fc40.x86_64.rpm
-        repoid: fedora
-        size: 1133815
-        checksum: sha256:4b105e0ed9a18cca39caffc000c9d13eeb5708429c0d48d7019a627ce1d24216
-        name: gettext
-        evr: 0.22.5-2.fc40
-        sourcerpm: gettext-0.22.5-2.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gettext-envsubst-0.22.5-2.fc40.x86_64.rpm
-        repoid: fedora
-        size: 38919
-        checksum: sha256:1af2b6d450ecc168e5604654dc83433bf0658bba5cacd55377400d7db7db650b
-        name: gettext-envsubst
-        evr: 0.22.5-2.fc40
-        sourcerpm: gettext-0.22.5-2.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gettext-libs-0.22.5-2.fc40.x86_64.rpm
-        repoid: fedora
-        size: 680028
-        checksum: sha256:834c3441835069b61208792b9b9ae1ebfadadb9d2d211357d7f42838932b59a7
-        name: gettext-libs
-        evr: 0.22.5-2.fc40
-        sourcerpm: gettext-0.22.5-2.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gettext-runtime-0.22.5-2.fc40.x86_64.rpm
-        repoid: fedora
-        size: 125543
-        checksum: sha256:1126bf8d28dff9f165865d83c239e6a2d3988fc935957b9b869d8ed7989a2ae9
-        name: gettext-runtime
-        evr: 0.22.5-2.fc40
-        sourcerpm: gettext-0.22.5-2.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/glibc-2.39-6.fc40.x86_64.rpm
-        repoid: fedora
-        size: 2342730
-        checksum: sha256:8cf203df214b24c9e4c866cad80ca18a7545c01a03038fc34b6f4b8c4b42c597
-        name: glibc
-        evr: 2.39-6.fc40
-        sourcerpm: glibc-2.39-6.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/glibc-common-2.39-6.fc40.x86_64.rpm
-        repoid: fedora
-        size: 393779
-        checksum: sha256:45fe79ffea9358fc7a4f233e2358b08678bdec476680d0655063b4a4058e8789
-        name: glibc-common
-        evr: 2.39-6.fc40
-        sourcerpm: glibc-2.39-6.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/glibc-devel-2.39-6.fc40.x86_64.rpm
-        repoid: fedora
-        size: 115950
-        checksum: sha256:8c2724221f146c6b4dc3ca948f74c81c61a0a5dd514bba992e4d5859654f5ea2
-        name: glibc-devel
-        evr: 2.39-6.fc40
-        sourcerpm: glibc-2.39-6.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/glibc-headers-x86-2.39-6.fc40.noarch.rpm
-        repoid: fedora
-        size: 617787
-        checksum: sha256:e0d2fb79ecaf7cf41990a9aa5acd930ba0b3529d08a54980f1020ac1235b48ac
-        name: glibc-headers-x86
-        evr: 2.39-6.fc40
-        sourcerpm: glibc-2.39-6.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/glibc-minimal-langpack-2.39-6.fc40.x86_64.rpm
-        repoid: fedora
-        size: 101945
-        checksum: sha256:9982f68ddcc3e972a2f3f220f29d56b0e9dde0e409bdecfe0bc559fe39013dde
-        name: glibc-minimal-langpack
-        evr: 2.39-6.fc40
-        sourcerpm: glibc-2.39-6.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/go-filesystem-3.5.0-1.fc40.x86_64.rpm
-        repoid: fedora
-        size: 8996
-        checksum: sha256:2e83b0d2d49f4ac26d9433d1f66fa237a8b063b89d277e643c034b7947374237
-        name: go-filesystem
-        evr: 3.5.0-1.fc40
-        sourcerpm: go-rpm-macros-3.5.0-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/golang-1.22.1-1.fc40.x86_64.rpm
-        repoid: fedora
-        size: 683228
-        checksum: sha256:fea782228aa79a715196d114ba5dc6885235023218e4d22ee53793ad91b548b6
-        name: golang
-        evr: 1.22.1-1.fc40
-        sourcerpm: golang-1.22.1-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/golang-bin-1.22.1-1.fc40.x86_64.rpm
-        repoid: fedora
-        size: 26843256
-        checksum: sha256:604a43d08268e2b568c301cee9de472947f18f5dfe21d50406cf5bb91713449c
-        name: golang-bin
-        evr: 1.22.1-1.fc40
-        sourcerpm: golang-1.22.1-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/golang-src-1.22.1-1.fc40.noarch.rpm
-        repoid: fedora
-        size: 12767238
-        checksum: sha256:40f7543ec43f9657342255d2964f7e8cb1ac2bcce8da7775c77c4b0935cb49b1
-        name: golang-src
-        evr: 1.22.1-1.fc40
-        sourcerpm: golang-1.22.1-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gpgme-1.23.2-3.fc40.x86_64.rpm
-        repoid: fedora
-        size: 215965
-        checksum: sha256:94e443590221fb17e0330f076ebac32baab17b8d9c22566db372899ae750ca64
-        name: gpgme
-        evr: 1.23.2-3.fc40
-        sourcerpm: gpgme-1.23.2-3.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/guile30-3.0.7-12.fc40.x86_64.rpm
-        repoid: fedora
-        size: 8544678
-        checksum: sha256:322aa327b35cbd6cd85265bc282505d297e7cc8e7d70dd856705dad805c50af8
-        name: guile30
-        evr: 3.0.7-12.fc40
-        sourcerpm: guile30-3.0.7-12.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gvisor-tap-vsock-0.7.3-2.fc40.x86_64.rpm
-        repoid: fedora
-        size: 3760225
-        checksum: sha256:6a502364cc7cfa1ec1918dbff2d678b4392c9f0279b66302bc8c039c36d7bde6
-        name: gvisor-tap-vsock
-        evr: 6:0.7.3-2.fc40
-        sourcerpm: gvisor-tap-vsock-0.7.3-2.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gvisor-tap-vsock-gvforwarder-0.7.3-2.fc40.x86_64.rpm
-        repoid: fedora
-        size: 1817999
-        checksum: sha256:7976f6318044e7adbf543edb4d3da4fbc43ef628e433a0c55b4652dc1c15a735
-        name: gvisor-tap-vsock-gvforwarder
-        evr: 6:0.7.3-2.fc40
-        sourcerpm: gvisor-tap-vsock-0.7.3-2.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/i/iptables-legacy-1.8.10-7.fc40.x86_64.rpm
-        repoid: fedora
-        size: 53433
-        checksum: sha256:21e1196534fbb6d6a4f8d29a1e76518e2740ae53f63080fc811e7ce9cc6d0982
-        name: iptables-legacy
-        evr: 1.8.10-7.fc40
-        sourcerpm: iptables-1.8.10-7.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/i/iptables-legacy-libs-1.8.10-7.fc40.x86_64.rpm
-        repoid: fedora
-        size: 38796
-        checksum: sha256:6e78bebc0bde8c2f1bd9c4a5f40010a779e7505a0fe87aab516db1bb4a840f02
-        name: iptables-legacy-libs
-        evr: 1.8.10-7.fc40
-        sourcerpm: iptables-1.8.10-7.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/i/iptables-libs-1.8.10-7.fc40.x86_64.rpm
-        repoid: fedora
-        size: 418447
-        checksum: sha256:98115e0aa89bc9a8ec66c160af80cf32519db427a83d23d8f3dd9185b3aa591e
-        name: iptables-libs
-        evr: 1.8.10-7.fc40
-        sourcerpm: iptables-1.8.10-7.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/j/jansson-2.13.1-9.fc40.x86_64.rpm
-        repoid: fedora
-        size: 45239
-        checksum: sha256:9b4f2730a62955650c1e260e1b573f089355faf0155871e2c10381316a3b2e55
-        name: jansson
-        evr: 2.13.1-9.fc40
-        sourcerpm: jansson-2.13.1-9.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/j/jq-1.7.1-4.fc40.x86_64.rpm
-        repoid: fedora
-        size: 206098
-        checksum: sha256:5b4d2dfbd20f7f835280759d33513587368ba639f5f7187f999cb9350881d109
-        name: jq
-        evr: 1.7.1-4.fc40
-        sourcerpm: jq-1.7.1-4.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/k/kernel-headers-6.8.3-300.fc40.x86_64.rpm
-        repoid: fedora
-        size: 1668712
-        checksum: sha256:1dd31f82968238e4e047a4a2da4c6777fa1e751efe6d708c846cda5e4e521621
-        name: kernel-headers
-        evr: 6.8.3-300.fc40
-        sourcerpm: kernel-headers-6.8.3-300.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/k/kmod-31-5.fc40.x86_64.rpm
-        repoid: fedora
-        size: 124973
-        checksum: sha256:370582ae0ed0dd607ec38e92eba4b124a4b2ec3835f3f4c1e5ad8255ee11d692
-        name: kmod
-        evr: 31-5.fc40
-        sourcerpm: kmod-31-5.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libbsd-0.11.7-7.fc40.x86_64.rpm
-        repoid: fedora
-        size: 115329
-        checksum: sha256:92464a90ea28219f3759840dc671f2d8274eda0ad23916481a6bf0a2124409ff
-        name: libbsd
-        evr: 0.11.7-7.fc40
-        sourcerpm: libbsd-0.11.7-7.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libedit-3.1-50.20230828cvs.fc40.x86_64.rpm
-        repoid: fedora
-        size: 107496
-        checksum: sha256:2c4a70a136b81fd13407660b999546f88568b477e86404793ba15c4325f2ab3c
-        name: libedit
-        evr: 3.1-50.20230828cvs.fc40
-        sourcerpm: libedit-3.1-50.20230828cvs.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libgomp-14.0.1-0.15.fc40.x86_64.rpm
-        repoid: fedora
-        size: 354630
-        checksum: sha256:fbd4a44d78bdbace8a2e46ed6b034ab85514008390d932754cdd3f6a246a66de
-        name: libgomp
-        evr: 14.0.1-0.15.fc40
-        sourcerpm: gcc-14.0.1-0.15.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libmd-1.1.0-4.fc40.x86_64.rpm
-        repoid: fedora
-        size: 48365
-        checksum: sha256:d5d9c95e38aeb8c852cda4516057d86a5fec2485cb3413067d625059a4d97b30
-        name: libmd
-        evr: 1.1.0-4.fc40
-        sourcerpm: libmd-1.1.0-4.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libmnl-1.0.5-5.fc40.x86_64.rpm
-        repoid: fedora
-        size: 28778
-        checksum: sha256:7b307e95fb7584889d35108de86ebfa34d0aea6eabb5a68d574647f83f25ed77
-        name: libmnl
-        evr: 1.0.5-5.fc40
-        sourcerpm: libmnl-1.0.5-5.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libmpc-1.3.1-5.fc40.x86_64.rpm
-        repoid: fedora
-        size: 72844
-        checksum: sha256:b749c245ecd4d9457a94e2eedbe7196837566bb13b94d0827b45b5135286f6f4
-        name: libmpc
-        evr: 1.3.1-5.fc40
-        sourcerpm: libmpc-1.3.1-5.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libnet-1.3-3.fc40.x86_64.rpm
-        repoid: fedora
-        size: 61700
-        checksum: sha256:157c1256a9529dea2215f6c77f40647baf19c6f8ac6058934c0f2a593f436c4d
-        name: libnet
-        evr: 1.3-3.fc40
-        sourcerpm: libnet-1.3-3.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libnetfilter_conntrack-1.0.9-5.fc40.x86_64.rpm
-        repoid: fedora
-        size: 59429
-        checksum: sha256:a2d50812dec895ba654fc424a458e99ceb81423046ad870ffabfef3081382ef6
-        name: libnetfilter_conntrack
-        evr: 1.0.9-5.fc40
-        sourcerpm: libnetfilter_conntrack-1.0.9-5.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libnfnetlink-1.0.1-27.fc40.x86_64.rpm
-        repoid: fedora
-        size: 29532
-        checksum: sha256:78055d1a143d118b9b5513e6621c31d19858c593427b6343a42655eb147a44ed
-        name: libnfnetlink
-        evr: 1.0.1-27.fc40
-        sourcerpm: libnfnetlink-1.0.1-27.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libnftnl-1.2.6-5.fc40.x86_64.rpm
-        repoid: fedora
-        size: 83188
-        checksum: sha256:db4841a294c5ec3759d77f356a05d0c7f852270aa75c900daac4992f12147dd3
-        name: libnftnl
-        evr: 1.2.6-5.fc40
-        sourcerpm: libnftnl-1.2.6-5.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libnl3-3.9.0-3.fc40.x86_64.rpm
-        repoid: fedora
-        size: 354377
-        checksum: sha256:7bfd9a41bedcf082dcc40ba2a980115ccdb1a843b9d28912a3bd8d99771f6015
-        name: libnl3
-        evr: 3.9.0-3.fc40
-        sourcerpm: libnl3-3.9.0-3.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libpkgconf-2.1.0-1.fc40.x86_64.rpm
-        repoid: fedora
-        size: 38737
-        checksum: sha256:e7c642b45bbc0027eb95fce772d58be66d170321bbc3ec02211c27a4525893ca
-        name: libpkgconf
-        evr: 2.1.0-1.fc40
-        sourcerpm: pkgconf-2.1.0-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libseccomp-2.5.3-8.fc40.x86_64.rpm
-        repoid: fedora
-        size: 71938
-        checksum: sha256:40e88dedc3fc64e70f0c2c16af598d9701c089cd205d5bf312517984bf0194fa
-        name: libseccomp
-        evr: 2.5.3-8.fc40
-        sourcerpm: libseccomp-2.5.3-8.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libxcrypt-4.4.36-5.fc40.x86_64.rpm
-        repoid: fedora
-        size: 120913
-        checksum: sha256:26c27a101cf40f84f313d81a28cbca9450e8d901e6fcd315ac6036895a369b92
-        name: libxcrypt
-        evr: 4.4.36-5.fc40
-        sourcerpm: libxcrypt-4.4.36-5.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libxcrypt-devel-4.4.36-5.fc40.x86_64.rpm
-        repoid: fedora
-        size: 29323
-        checksum: sha256:0b384c64ba6bf1c067f6b389181c31088472b9a2bc21ef856953558ae19f8ad5
-        name: libxcrypt-devel
-        evr: 4.4.36-5.fc40
-        sourcerpm: libxcrypt-4.4.36-5.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/m/make-4.4.1-6.fc40.x86_64.rpm
-        repoid: fedora
-        size: 601729
-        checksum: sha256:a4d2818bc705b4d474552f2461c05740449c9da8e4e9f32c4e4e8eaa6cca2b33
-        name: make
-        evr: 1:4.4.1-6.fc40
-        sourcerpm: make-4.4.1-6.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/m/mercurial-6.6.3-1.fc40.x86_64.rpm
-        repoid: fedora
-        size: 6726859
-        checksum: sha256:8fce212bb86aec10f063cfd289ae1d1b5aed851161421b06dcece2d0b6e05065
-        name: mercurial
-        evr: 6.6.3-1.fc40
-        sourcerpm: mercurial-6.6.3-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/n/netavark-1.10.3-3.fc40.x86_64.rpm
-        repoid: fedora
-        size: 3582366
-        checksum: sha256:07253a2a49c6554632408bc006af14847eb5d89551e7221678de5f24a228ce8a
-        name: netavark
-        evr: 1.10.3-3.fc40
-        sourcerpm: netavark-1.10.3-3.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/n/nftables-1.0.9-3.fc40.x86_64.rpm
-        repoid: fedora
-        size: 421990
-        checksum: sha256:188ce5004e6ed764b4a619b64a4a0f36f1cc4fa919fe0a300599ff1171844144
-        name: nftables
-        evr: 1:1.0.9-3.fc40
-        sourcerpm: nftables-1.0.9-3.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/o/oniguruma-6.9.9-3.fc40.x86_64.rpm
-        repoid: fedora
-        size: 220283
-        checksum: sha256:f77d183e5bc4efcef2525dad430e4b98dc1c2e4cafd203ea92002d0d7450adaf
-        name: oniguruma
-        evr: 6.9.9-3.fc40
-        sourcerpm: oniguruma-6.9.9-3.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/passt-0^20240326.g4988e2b-1.fc40.x86_64.rpm
-        repoid: fedora
-        size: 198294
-        checksum: sha256:4e80d3b4bea4685bac5b16f34e761f7bf162f4e31c678474d968cf42dc14b6ac
-        name: passt
-        evr: 0^20240326.g4988e2b-1.fc40
-        sourcerpm: passt-0^20240326.g4988e2b-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/pkgconf-2.1.0-1.fc40.x86_64.rpm
-        repoid: fedora
-        size: 44537
-        checksum: sha256:f2ea2d31a058c8693a2d908af6e0488e5a3990b1aa71c644149d8282d3e7efd0
-        name: pkgconf
-        evr: 2.1.0-1.fc40
-        sourcerpm: pkgconf-2.1.0-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/pkgconf-m4-2.1.0-1.fc40.noarch.rpm
-        repoid: fedora
-        size: 14257
-        checksum: sha256:d10733577490df6f3eb87d23e7078c287b19b9c42ef4104a4727e1ad5093cb2f
-        name: pkgconf-m4
-        evr: 2.1.0-1.fc40
-        sourcerpm: pkgconf-2.1.0-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/pkgconf-pkg-config-2.1.0-1.fc40.x86_64.rpm
-        repoid: fedora
-        size: 9937
-        checksum: sha256:bed20ae76c3c1c7f561064a99388b0a0484e89953e12d674f9e99a460ddd8913
-        name: pkgconf-pkg-config
-        evr: 2.1.0-1.fc40
-        sourcerpm: pkgconf-2.1.0-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/podman-5.0.0-1.fc40.x86_64.rpm
-        repoid: fedora
-        size: 15484810
-        checksum: sha256:bdf0e81bc2ded468b160f4427673a857d771c54025da2bd9ba5d8c365b1e4fb0
-        name: podman
-        evr: 5:5.0.0-1.fc40
-        sourcerpm: podman-5.0.0-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/protobuf-c-1.5.0-3.fc40.x86_64.rpm
-        repoid: fedora
-        size: 33070
-        checksum: sha256:af85755cda79959a19161ebc26a45e507003298bd97b472b9ab0d512afa5e46a
-        name: protobuf-c
-        evr: 1.5.0-3.fc40
-        sourcerpm: protobuf-c-1.5.0-3.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/python3-fb-re2-1.0.7-15.fc40.x86_64.rpm
-        repoid: fedora
-        size: 24063
-        checksum: sha256:8a0fc3862024f262fa36b509726a659b7e8df16311819b7aeb7ead8278ea5aeb
-        name: python3-fb-re2
-        evr: 1.0.7-15.fc40
-        sourcerpm: python-fb-re2-1.0.7-15.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/python3-zombie-imp-0.0.2-5.fc40.noarch.rpm
-        repoid: fedora
-        size: 29804
-        checksum: sha256:5dcb07752c2e5ba8fd6e1e13916ce6ab25b3e8a7300ac7a39429f67e90e362a7
-        name: python3-zombie-imp
-        evr: 0.0.2-5.fc40
-        sourcerpm: python-zombie-imp-0.0.2-5.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/r/re2-20220601-5.fc40.x86_64.rpm
-        repoid: fedora
-        size: 211086
-        checksum: sha256:1079d65b122f6c64d38691ca17452ade03f3cc63b0a94112ad5a89376052f846
-        name: re2
-        evr: 1:20220601-5.fc40
-        sourcerpm: re2-20220601-5.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/s/shadow-utils-subid-4.15.1-1.fc40.x86_64.rpm
-        repoid: fedora
-        size: 28898
-        checksum: sha256:e5adc9130275a897f9c5a0d76027bccd00fee512fabdc40a3b54b718affdbcd2
-        name: shadow-utils-subid
-        evr: 2:4.15.1-1.fc40
-        sourcerpm: shadow-utils-4.15.1-1.fc40.src.rpm
-      - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/y/yajl-2.1.0-23.fc40.x86_64.rpm
-        repoid: fedora
-        size: 39210
-        checksum: sha256:9e263e0a9b656178519de20733f3e0950fef494aa056daaa2004b522ba50b952
-        name: yajl
-        evr: 2.1.0-23.fc40
-        sourcerpm: yajl-2.1.0-23.fc40.src.rpm
-    source: []
-    module_metadata: []
+- arch: x86_64
+  packages:
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/a/aardvark-dns-1.10.0-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 893471
+    checksum: sha256:a1d1bd1e3dd3f133c984039219a05703cb38b073daf8a864bd95805747633103
+    name: aardvark-dns
+    evr: 1.10.0-1.fc40
+    sourcerpm: aardvark-dns-1.10.0-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/b/binutils-2.41-34.fc40.x86_64.rpm
+    repoid: fedora
+    size: 6547347
+    checksum: sha256:eebdce4bf9ee035a4a1a32ca39277b24333f54b3594483650fa5f15e55598dd2
+    name: binutils
+    evr: 2.41-34.fc40
+    sourcerpm: binutils-2.41-34.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/b/binutils-gold-2.41-34.fc40.x86_64.rpm
+    repoid: fedora
+    size: 800383
+    checksum: sha256:ad301dd621accbad679cf89361b76668aef06c47d297e04a71224fd14efdd786
+    name: binutils-gold
+    evr: 2.41-34.fc40
+    sourcerpm: binutils-2.41-34.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/catatonit-0.1.7-22.fc40.x86_64.rpm
+    repoid: fedora
+    size: 329545
+    checksum: sha256:99d4976979c8b9d18c9d2d686de77882dc6a4e72ebfe358fb9a37a83f0ecdc90
+    name: catatonit
+    evr: 0.1.7-22.fc40
+    sourcerpm: catatonit-0.1.7-22.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/conmon-2.1.10-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 53632
+    checksum: sha256:ef93475ea699c80bb8e49b5a80fefeed23e553b0e492d74748a55958b4dde568
+    name: conmon
+    evr: 2:2.1.10-1.fc40
+    sourcerpm: conmon-2.1.10-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/containers-common-0.58.0-2.fc40.noarch.rpm
+    repoid: fedora
+    size: 101685
+    checksum: sha256:542e8c11b3af4c4bbbe2e8911c9f9dac12620d20be15011561cb3791165562c5
+    name: containers-common
+    evr: 5:0.58.0-2.fc40
+    sourcerpm: containers-common-0.58.0-2.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/containers-common-extra-0.58.0-2.fc40.noarch.rpm
+    repoid: fedora
+    size: 12685
+    checksum: sha256:483e8966b8f25fd5508ebe01a8b4fed75fd4c5105ba5d71284322ac3d3500b7b
+    name: containers-common-extra
+    evr: 5:0.58.0-2.fc40
+    sourcerpm: containers-common-0.58.0-2.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/cpp-14.0.1-0.15.fc40.x86_64.rpm
+    repoid: fedora
+    size: 12556102
+    checksum: sha256:85e8c7e8cf69ded9fad3370a2995ce68edbcafc67c4fce21e7ce3baa4c8fdbf9
+    name: cpp
+    evr: 14.0.1-0.15.fc40
+    sourcerpm: gcc-14.0.1-0.15.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/criu-3.19-4.fc40.x86_64.rpm
+    repoid: fedora
+    size: 573701
+    checksum: sha256:e4407cbfeb01494457e941a56971ec3aefbd35206792918d60fc9417acacd1a8
+    name: criu
+    evr: 3.19-4.fc40
+    sourcerpm: criu-3.19-4.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/criu-libs-3.19-4.fc40.x86_64.rpm
+    repoid: fedora
+    size: 33336
+    checksum: sha256:6dd4fe61a462d20fd6fc07ecf8bf47198cc24733d82fe0e46ed4d5f988dffef4
+    name: criu-libs
+    evr: 3.19-4.fc40
+    sourcerpm: criu-3.19-4.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/crun-1.14.4-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 234779
+    checksum: sha256:8a86435bf7382475bc7366b5dbf741e549c23b16c3430fecf9b84f3a1e6c9e88
+    name: crun
+    evr: 1.14.4-1.fc40
+    sourcerpm: crun-1.14.4-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/e/elfutils-debuginfod-client-0.191-4.fc40.x86_64.rpm
+    repoid: fedora
+    size: 39390
+    checksum: sha256:877c66844c68044b2a29b5d7465eb97f429e9f38b56ebaa16d766c0979e93a80
+    name: elfutils-debuginfod-client
+    evr: 0.191-4.fc40
+    sourcerpm: elfutils-0.191-4.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/e/elfutils-libelf-0.191-4.fc40.x86_64.rpm
+    repoid: fedora
+    size: 214836
+    checksum: sha256:c1eca14924981b987f9b17c01a97511d641f49ac6b2b0f2d8e83563343932302
+    name: elfutils-libelf
+    evr: 0.191-4.fc40
+    sourcerpm: elfutils-0.191-4.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/e/elfutils-libs-0.191-4.fc40.x86_64.rpm
+    repoid: fedora
+    size: 266119
+    checksum: sha256:d7d1ed3fca0696b8c38effe21bc70c84a94cb66c0b59bb1980c0f455d23b7fec
+    name: elfutils-libs
+    evr: 0.191-4.fc40
+    sourcerpm: elfutils-0.191-4.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/e/emacs-filesystem-29.2-3.fc40.noarch.rpm
+    repoid: fedora
+    size: 7968
+    checksum: sha256:072f0f0070c00ddb6cb82ba1e20fac178ffffefdeddb4b56374aadb96b752f3e
+    name: emacs-filesystem
+    evr: 1:29.2-3.fc40
+    sourcerpm: emacs-29.2-3.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/f/fuse-common-3.16.2-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 8888
+    checksum: sha256:f4c2d51c7b4577f7b7ef498f8e2afb1b007da2de00cca28e220f50129c40a48c
+    name: fuse-common
+    evr: 3.16.2-3.fc40
+    sourcerpm: fuse3-3.16.2-3.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/f/fuse-overlayfs-1.13-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 68491
+    checksum: sha256:8fe84b7e0319afcc9c9eb28130b74e0cd7c675667a6ce075eb7ee2ec1b0014c2
+    name: fuse-overlayfs
+    evr: 1.13-1.fc40
+    sourcerpm: fuse-overlayfs-1.13-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/f/fuse3-3.16.2-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 59386
+    checksum: sha256:2d6631d65e3b5c91afdb100a51ee8e50294f0e074a944c1662008d878d47456e
+    name: fuse3
+    evr: 3.16.2-3.fc40
+    sourcerpm: fuse3-3.16.2-3.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/f/fuse3-libs-3.16.2-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 95506
+    checksum: sha256:a9c6502a5b190aaf169e93afd337c009e0b2e235e31f3da23d29c7d063ad2ff9
+    name: fuse3-libs
+    evr: 3.16.2-3.fc40
+    sourcerpm: fuse3-3.16.2-3.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gc-8.2.2-6.fc40.x86_64.rpm
+    repoid: fedora
+    size: 112880
+    checksum: sha256:641494edfcaad3ca02445dafa37b652efa7c188f40e09d50445a4b5d6d7965df
+    name: gc
+    evr: 8.2.2-6.fc40
+    sourcerpm: gc-8.2.2-6.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gcc-14.0.1-0.15.fc40.x86_64.rpm
+    repoid: fedora
+    size: 39014395
+    checksum: sha256:1039377bc27e3ae4b566e91a3fa2628354608bc14a80d88a894136432570d63b
+    name: gcc
+    evr: 14.0.1-0.15.fc40
+    sourcerpm: gcc-14.0.1-0.15.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gettext-0.22.5-2.fc40.x86_64.rpm
+    repoid: fedora
+    size: 1133815
+    checksum: sha256:4b105e0ed9a18cca39caffc000c9d13eeb5708429c0d48d7019a627ce1d24216
+    name: gettext
+    evr: 0.22.5-2.fc40
+    sourcerpm: gettext-0.22.5-2.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gettext-envsubst-0.22.5-2.fc40.x86_64.rpm
+    repoid: fedora
+    size: 38919
+    checksum: sha256:1af2b6d450ecc168e5604654dc83433bf0658bba5cacd55377400d7db7db650b
+    name: gettext-envsubst
+    evr: 0.22.5-2.fc40
+    sourcerpm: gettext-0.22.5-2.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gettext-libs-0.22.5-2.fc40.x86_64.rpm
+    repoid: fedora
+    size: 680028
+    checksum: sha256:834c3441835069b61208792b9b9ae1ebfadadb9d2d211357d7f42838932b59a7
+    name: gettext-libs
+    evr: 0.22.5-2.fc40
+    sourcerpm: gettext-0.22.5-2.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gettext-runtime-0.22.5-2.fc40.x86_64.rpm
+    repoid: fedora
+    size: 125543
+    checksum: sha256:1126bf8d28dff9f165865d83c239e6a2d3988fc935957b9b869d8ed7989a2ae9
+    name: gettext-runtime
+    evr: 0.22.5-2.fc40
+    sourcerpm: gettext-0.22.5-2.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/glibc-2.39-6.fc40.x86_64.rpm
+    repoid: fedora
+    size: 2342730
+    checksum: sha256:8cf203df214b24c9e4c866cad80ca18a7545c01a03038fc34b6f4b8c4b42c597
+    name: glibc
+    evr: 2.39-6.fc40
+    sourcerpm: glibc-2.39-6.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/glibc-common-2.39-6.fc40.x86_64.rpm
+    repoid: fedora
+    size: 393779
+    checksum: sha256:45fe79ffea9358fc7a4f233e2358b08678bdec476680d0655063b4a4058e8789
+    name: glibc-common
+    evr: 2.39-6.fc40
+    sourcerpm: glibc-2.39-6.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/glibc-devel-2.39-6.fc40.x86_64.rpm
+    repoid: fedora
+    size: 115950
+    checksum: sha256:8c2724221f146c6b4dc3ca948f74c81c61a0a5dd514bba992e4d5859654f5ea2
+    name: glibc-devel
+    evr: 2.39-6.fc40
+    sourcerpm: glibc-2.39-6.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/glibc-headers-x86-2.39-6.fc40.noarch.rpm
+    repoid: fedora
+    size: 617787
+    checksum: sha256:e0d2fb79ecaf7cf41990a9aa5acd930ba0b3529d08a54980f1020ac1235b48ac
+    name: glibc-headers-x86
+    evr: 2.39-6.fc40
+    sourcerpm: glibc-2.39-6.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/glibc-minimal-langpack-2.39-6.fc40.x86_64.rpm
+    repoid: fedora
+    size: 101945
+    checksum: sha256:9982f68ddcc3e972a2f3f220f29d56b0e9dde0e409bdecfe0bc559fe39013dde
+    name: glibc-minimal-langpack
+    evr: 2.39-6.fc40
+    sourcerpm: glibc-2.39-6.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/go-filesystem-3.5.0-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 8996
+    checksum: sha256:2e83b0d2d49f4ac26d9433d1f66fa237a8b063b89d277e643c034b7947374237
+    name: go-filesystem
+    evr: 3.5.0-1.fc40
+    sourcerpm: go-rpm-macros-3.5.0-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/golang-1.22.1-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 683228
+    checksum: sha256:fea782228aa79a715196d114ba5dc6885235023218e4d22ee53793ad91b548b6
+    name: golang
+    evr: 1.22.1-1.fc40
+    sourcerpm: golang-1.22.1-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/golang-bin-1.22.1-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 26843256
+    checksum: sha256:604a43d08268e2b568c301cee9de472947f18f5dfe21d50406cf5bb91713449c
+    name: golang-bin
+    evr: 1.22.1-1.fc40
+    sourcerpm: golang-1.22.1-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/golang-src-1.22.1-1.fc40.noarch.rpm
+    repoid: fedora
+    size: 12767238
+    checksum: sha256:40f7543ec43f9657342255d2964f7e8cb1ac2bcce8da7775c77c4b0935cb49b1
+    name: golang-src
+    evr: 1.22.1-1.fc40
+    sourcerpm: golang-1.22.1-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gpgme-1.23.2-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 215965
+    checksum: sha256:94e443590221fb17e0330f076ebac32baab17b8d9c22566db372899ae750ca64
+    name: gpgme
+    evr: 1.23.2-3.fc40
+    sourcerpm: gpgme-1.23.2-3.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/guile30-3.0.7-12.fc40.x86_64.rpm
+    repoid: fedora
+    size: 8544678
+    checksum: sha256:322aa327b35cbd6cd85265bc282505d297e7cc8e7d70dd856705dad805c50af8
+    name: guile30
+    evr: 3.0.7-12.fc40
+    sourcerpm: guile30-3.0.7-12.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gvisor-tap-vsock-0.7.3-2.fc40.x86_64.rpm
+    repoid: fedora
+    size: 3760225
+    checksum: sha256:6a502364cc7cfa1ec1918dbff2d678b4392c9f0279b66302bc8c039c36d7bde6
+    name: gvisor-tap-vsock
+    evr: 6:0.7.3-2.fc40
+    sourcerpm: gvisor-tap-vsock-0.7.3-2.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/g/gvisor-tap-vsock-gvforwarder-0.7.3-2.fc40.x86_64.rpm
+    repoid: fedora
+    size: 1817999
+    checksum: sha256:7976f6318044e7adbf543edb4d3da4fbc43ef628e433a0c55b4652dc1c15a735
+    name: gvisor-tap-vsock-gvforwarder
+    evr: 6:0.7.3-2.fc40
+    sourcerpm: gvisor-tap-vsock-0.7.3-2.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/i/iptables-legacy-1.8.10-7.fc40.x86_64.rpm
+    repoid: fedora
+    size: 53433
+    checksum: sha256:21e1196534fbb6d6a4f8d29a1e76518e2740ae53f63080fc811e7ce9cc6d0982
+    name: iptables-legacy
+    evr: 1.8.10-7.fc40
+    sourcerpm: iptables-1.8.10-7.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/i/iptables-legacy-libs-1.8.10-7.fc40.x86_64.rpm
+    repoid: fedora
+    size: 38796
+    checksum: sha256:6e78bebc0bde8c2f1bd9c4a5f40010a779e7505a0fe87aab516db1bb4a840f02
+    name: iptables-legacy-libs
+    evr: 1.8.10-7.fc40
+    sourcerpm: iptables-1.8.10-7.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/i/iptables-libs-1.8.10-7.fc40.x86_64.rpm
+    repoid: fedora
+    size: 418447
+    checksum: sha256:98115e0aa89bc9a8ec66c160af80cf32519db427a83d23d8f3dd9185b3aa591e
+    name: iptables-libs
+    evr: 1.8.10-7.fc40
+    sourcerpm: iptables-1.8.10-7.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/j/jansson-2.13.1-9.fc40.x86_64.rpm
+    repoid: fedora
+    size: 45239
+    checksum: sha256:9b4f2730a62955650c1e260e1b573f089355faf0155871e2c10381316a3b2e55
+    name: jansson
+    evr: 2.13.1-9.fc40
+    sourcerpm: jansson-2.13.1-9.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/j/jq-1.7.1-4.fc40.x86_64.rpm
+    repoid: fedora
+    size: 206098
+    checksum: sha256:5b4d2dfbd20f7f835280759d33513587368ba639f5f7187f999cb9350881d109
+    name: jq
+    evr: 1.7.1-4.fc40
+    sourcerpm: jq-1.7.1-4.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/k/kernel-headers-6.8.3-300.fc40.x86_64.rpm
+    repoid: fedora
+    size: 1668712
+    checksum: sha256:1dd31f82968238e4e047a4a2da4c6777fa1e751efe6d708c846cda5e4e521621
+    name: kernel-headers
+    evr: 6.8.3-300.fc40
+    sourcerpm: kernel-headers-6.8.3-300.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/k/kmod-31-5.fc40.x86_64.rpm
+    repoid: fedora
+    size: 124973
+    checksum: sha256:370582ae0ed0dd607ec38e92eba4b124a4b2ec3835f3f4c1e5ad8255ee11d692
+    name: kmod
+    evr: 31-5.fc40
+    sourcerpm: kmod-31-5.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libbsd-0.11.7-7.fc40.x86_64.rpm
+    repoid: fedora
+    size: 115329
+    checksum: sha256:92464a90ea28219f3759840dc671f2d8274eda0ad23916481a6bf0a2124409ff
+    name: libbsd
+    evr: 0.11.7-7.fc40
+    sourcerpm: libbsd-0.11.7-7.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libedit-3.1-50.20230828cvs.fc40.x86_64.rpm
+    repoid: fedora
+    size: 107496
+    checksum: sha256:2c4a70a136b81fd13407660b999546f88568b477e86404793ba15c4325f2ab3c
+    name: libedit
+    evr: 3.1-50.20230828cvs.fc40
+    sourcerpm: libedit-3.1-50.20230828cvs.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libgomp-14.0.1-0.15.fc40.x86_64.rpm
+    repoid: fedora
+    size: 354630
+    checksum: sha256:fbd4a44d78bdbace8a2e46ed6b034ab85514008390d932754cdd3f6a246a66de
+    name: libgomp
+    evr: 14.0.1-0.15.fc40
+    sourcerpm: gcc-14.0.1-0.15.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libmd-1.1.0-4.fc40.x86_64.rpm
+    repoid: fedora
+    size: 48365
+    checksum: sha256:d5d9c95e38aeb8c852cda4516057d86a5fec2485cb3413067d625059a4d97b30
+    name: libmd
+    evr: 1.1.0-4.fc40
+    sourcerpm: libmd-1.1.0-4.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libmnl-1.0.5-5.fc40.x86_64.rpm
+    repoid: fedora
+    size: 28778
+    checksum: sha256:7b307e95fb7584889d35108de86ebfa34d0aea6eabb5a68d574647f83f25ed77
+    name: libmnl
+    evr: 1.0.5-5.fc40
+    sourcerpm: libmnl-1.0.5-5.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libmpc-1.3.1-5.fc40.x86_64.rpm
+    repoid: fedora
+    size: 72844
+    checksum: sha256:b749c245ecd4d9457a94e2eedbe7196837566bb13b94d0827b45b5135286f6f4
+    name: libmpc
+    evr: 1.3.1-5.fc40
+    sourcerpm: libmpc-1.3.1-5.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libnet-1.3-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 61700
+    checksum: sha256:157c1256a9529dea2215f6c77f40647baf19c6f8ac6058934c0f2a593f436c4d
+    name: libnet
+    evr: 1.3-3.fc40
+    sourcerpm: libnet-1.3-3.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libnetfilter_conntrack-1.0.9-5.fc40.x86_64.rpm
+    repoid: fedora
+    size: 59429
+    checksum: sha256:a2d50812dec895ba654fc424a458e99ceb81423046ad870ffabfef3081382ef6
+    name: libnetfilter_conntrack
+    evr: 1.0.9-5.fc40
+    sourcerpm: libnetfilter_conntrack-1.0.9-5.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libnfnetlink-1.0.1-27.fc40.x86_64.rpm
+    repoid: fedora
+    size: 29532
+    checksum: sha256:78055d1a143d118b9b5513e6621c31d19858c593427b6343a42655eb147a44ed
+    name: libnfnetlink
+    evr: 1.0.1-27.fc40
+    sourcerpm: libnfnetlink-1.0.1-27.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libnftnl-1.2.6-5.fc40.x86_64.rpm
+    repoid: fedora
+    size: 83188
+    checksum: sha256:db4841a294c5ec3759d77f356a05d0c7f852270aa75c900daac4992f12147dd3
+    name: libnftnl
+    evr: 1.2.6-5.fc40
+    sourcerpm: libnftnl-1.2.6-5.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libnl3-3.9.0-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 354377
+    checksum: sha256:7bfd9a41bedcf082dcc40ba2a980115ccdb1a843b9d28912a3bd8d99771f6015
+    name: libnl3
+    evr: 3.9.0-3.fc40
+    sourcerpm: libnl3-3.9.0-3.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libpkgconf-2.1.0-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 38737
+    checksum: sha256:e7c642b45bbc0027eb95fce772d58be66d170321bbc3ec02211c27a4525893ca
+    name: libpkgconf
+    evr: 2.1.0-1.fc40
+    sourcerpm: pkgconf-2.1.0-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libseccomp-2.5.3-8.fc40.x86_64.rpm
+    repoid: fedora
+    size: 71938
+    checksum: sha256:40e88dedc3fc64e70f0c2c16af598d9701c089cd205d5bf312517984bf0194fa
+    name: libseccomp
+    evr: 2.5.3-8.fc40
+    sourcerpm: libseccomp-2.5.3-8.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libxcrypt-4.4.36-5.fc40.x86_64.rpm
+    repoid: fedora
+    size: 120913
+    checksum: sha256:26c27a101cf40f84f313d81a28cbca9450e8d901e6fcd315ac6036895a369b92
+    name: libxcrypt
+    evr: 4.4.36-5.fc40
+    sourcerpm: libxcrypt-4.4.36-5.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/l/libxcrypt-devel-4.4.36-5.fc40.x86_64.rpm
+    repoid: fedora
+    size: 29323
+    checksum: sha256:0b384c64ba6bf1c067f6b389181c31088472b9a2bc21ef856953558ae19f8ad5
+    name: libxcrypt-devel
+    evr: 4.4.36-5.fc40
+    sourcerpm: libxcrypt-4.4.36-5.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/m/make-4.4.1-6.fc40.x86_64.rpm
+    repoid: fedora
+    size: 601729
+    checksum: sha256:a4d2818bc705b4d474552f2461c05740449c9da8e4e9f32c4e4e8eaa6cca2b33
+    name: make
+    evr: 1:4.4.1-6.fc40
+    sourcerpm: make-4.4.1-6.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/m/mercurial-6.6.3-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 6726859
+    checksum: sha256:8fce212bb86aec10f063cfd289ae1d1b5aed851161421b06dcece2d0b6e05065
+    name: mercurial
+    evr: 6.6.3-1.fc40
+    sourcerpm: mercurial-6.6.3-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/n/netavark-1.10.3-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 3582366
+    checksum: sha256:07253a2a49c6554632408bc006af14847eb5d89551e7221678de5f24a228ce8a
+    name: netavark
+    evr: 1.10.3-3.fc40
+    sourcerpm: netavark-1.10.3-3.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/n/nftables-1.0.9-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 421990
+    checksum: sha256:188ce5004e6ed764b4a619b64a4a0f36f1cc4fa919fe0a300599ff1171844144
+    name: nftables
+    evr: 1:1.0.9-3.fc40
+    sourcerpm: nftables-1.0.9-3.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/o/oniguruma-6.9.9-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 220283
+    checksum: sha256:f77d183e5bc4efcef2525dad430e4b98dc1c2e4cafd203ea92002d0d7450adaf
+    name: oniguruma
+    evr: 6.9.9-3.fc40
+    sourcerpm: oniguruma-6.9.9-3.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/passt-0^20240326.g4988e2b-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 198294
+    checksum: sha256:4e80d3b4bea4685bac5b16f34e761f7bf162f4e31c678474d968cf42dc14b6ac
+    name: passt
+    evr: 0^20240326.g4988e2b-1.fc40
+    sourcerpm: passt-0^20240326.g4988e2b-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/pkgconf-2.1.0-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 44537
+    checksum: sha256:f2ea2d31a058c8693a2d908af6e0488e5a3990b1aa71c644149d8282d3e7efd0
+    name: pkgconf
+    evr: 2.1.0-1.fc40
+    sourcerpm: pkgconf-2.1.0-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/pkgconf-m4-2.1.0-1.fc40.noarch.rpm
+    repoid: fedora
+    size: 14257
+    checksum: sha256:d10733577490df6f3eb87d23e7078c287b19b9c42ef4104a4727e1ad5093cb2f
+    name: pkgconf-m4
+    evr: 2.1.0-1.fc40
+    sourcerpm: pkgconf-2.1.0-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/pkgconf-pkg-config-2.1.0-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 9937
+    checksum: sha256:bed20ae76c3c1c7f561064a99388b0a0484e89953e12d674f9e99a460ddd8913
+    name: pkgconf-pkg-config
+    evr: 2.1.0-1.fc40
+    sourcerpm: pkgconf-2.1.0-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/podman-5.0.0-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 15484810
+    checksum: sha256:bdf0e81bc2ded468b160f4427673a857d771c54025da2bd9ba5d8c365b1e4fb0
+    name: podman
+    evr: 5:5.0.0-1.fc40
+    sourcerpm: podman-5.0.0-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/protobuf-c-1.5.0-3.fc40.x86_64.rpm
+    repoid: fedora
+    size: 33070
+    checksum: sha256:af85755cda79959a19161ebc26a45e507003298bd97b472b9ab0d512afa5e46a
+    name: protobuf-c
+    evr: 1.5.0-3.fc40
+    sourcerpm: protobuf-c-1.5.0-3.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/python3-fb-re2-1.0.7-15.fc40.x86_64.rpm
+    repoid: fedora
+    size: 24063
+    checksum: sha256:8a0fc3862024f262fa36b509726a659b7e8df16311819b7aeb7ead8278ea5aeb
+    name: python3-fb-re2
+    evr: 1.0.7-15.fc40
+    sourcerpm: python-fb-re2-1.0.7-15.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/python3-zombie-imp-0.0.2-5.fc40.noarch.rpm
+    repoid: fedora
+    size: 29804
+    checksum: sha256:5dcb07752c2e5ba8fd6e1e13916ce6ab25b3e8a7300ac7a39429f67e90e362a7
+    name: python3-zombie-imp
+    evr: 0.0.2-5.fc40
+    sourcerpm: python-zombie-imp-0.0.2-5.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/r/re2-20220601-5.fc40.x86_64.rpm
+    repoid: fedora
+    size: 211086
+    checksum: sha256:1079d65b122f6c64d38691ca17452ade03f3cc63b0a94112ad5a89376052f846
+    name: re2
+    evr: 1:20220601-5.fc40
+    sourcerpm: re2-20220601-5.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/s/shadow-utils-subid-4.15.1-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 28898
+    checksum: sha256:e5adc9130275a897f9c5a0d76027bccd00fee512fabdc40a3b54b718affdbcd2
+    name: shadow-utils-subid
+    evr: 2:4.15.1-1.fc40
+    sourcerpm: shadow-utils-4.15.1-1.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/y/yajl-2.1.0-23.fc40.x86_64.rpm
+    repoid: fedora
+    size: 39210
+    checksum: sha256:9e263e0a9b656178519de20733f3e0950fef494aa056daaa2004b522ba50b952
+    name: yajl
+    evr: 2.1.0-23.fc40
+    sourcerpm: yajl-2.1.0-23.fc40.src.rpm
+  source: []
+  module_metadata: []
