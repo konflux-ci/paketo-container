@@ -42,7 +42,7 @@ spec:
     - name: enableSymlinkCheck
       value: "false"
     - name: cachi2-log-level
-      value: "debug"
+      value: "info"
     - name: build-image-index
       value: "false"
   pipelineRef:

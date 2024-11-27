@@ -65,7 +65,7 @@ spec:
         - name: dev-package-managers
           value: $(params.dev-package-managers)
         - name: log-level
-          value: "debug"
+          value: $(params.cachi2-log-level)
       runAfter:
         - clone-repository
       taskRef:
