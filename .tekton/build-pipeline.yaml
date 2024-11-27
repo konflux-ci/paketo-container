@@ -31,6 +31,8 @@ spec:
           value: $(params.output-image).git
         - name: ociArtifactExpiresAfter
           value: $(params.image-expires-after)
+        - name: enableSymlinkCheck
+          value: "$(params.enableSymlinkCheck)"
       runAfter:
         - init
       taskRef:
