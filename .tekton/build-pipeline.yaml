@@ -63,7 +63,7 @@ spec:
         - name: ociArtifactExpiresAfter
           value: $(params.image-expires-after)
         - name: dev-package-managers
-          value: $(params.prefetch-dev-package-managers-enabled)
+          value: $(params.dev-package-managers)
         - name: log-level
           value: "debug"
       runAfter:
