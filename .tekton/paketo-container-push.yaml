@@ -14,7 +14,7 @@ metadata:
     appstudio.openshift.io/component: paketo-container
     pipelines.appstudio.openshift.io/type: build
   name: paketo-container-on-push
-  namespace: cmoullia-tenant
+  namespace: konflux-build-pipeli-tenant
 spec:
   params:
   - name: git-url
@@ -22,7 +22,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/redhat-user-workloads/cmoullia-tenant/paketo-container:{{revision}}
+    value: quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/paketo-container:{{revision}}
   - name: dockerfile
     value: Containerfile
   pipelineSpec:
