@@ -16,7 +16,7 @@ RUN CGO_ENABLED=0 GOTOOLCHAIN=go1.22.8 go build -ldflags "-s -w" -a ./cmd/cosign
 # Build Syft: Go mod version: 1.22.0
 WORKDIR /go/src/buildpacks/syft
 COPY syft/ .
-RUN CGO_ENABLED=0 GOTOOLCHAIN=go1.22.0 go build -ldflags "-s -w -X main.version=1.14.x" -o build/syft -a ./cmd/syft/main.go
+RUN CGO_ENABLED=0 GOTOOLCHAIN=go1.22.9 go build -ldflags "-s -w -X main.version=1.14.x" -o build/syft -a ./cmd/syft/main.go
 
 # Build toml: Go mod version: 1.22.0
 WORKDIR /go/src/buildpacks/toml
