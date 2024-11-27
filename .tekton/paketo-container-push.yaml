@@ -36,7 +36,7 @@ spec:
          {"type": "gomod", "path": "pack"},
          {"type": "rpm", "path": "."}]
     - name: hermetic
-      value: true
+      value: "true"
     - name: dev-package-managers
       value: "true"
     - name: enableSymlinkCheck
