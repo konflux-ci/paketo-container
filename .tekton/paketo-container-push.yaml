@@ -31,8 +31,6 @@ spec:
         [{"type": "gomod", "path": "toml"},
          {"type": "gomod", "path": "jam"},
          {"type": "gomod", "path": "create-package"},
-         {"type": "gomod", "path": "cosign"},
-         {"type": "gomod", "path": "syft"},
          {"type": "gomod", "path": "pack"},
          {"type": "rpm", "path": "."}]
     - name: hermetic
@@ -42,7 +40,7 @@ spec:
     - name: enableSymlinkCheck
       value: "false"
     - name: cachi2-log-level
-      value: "info"
+      value: "debug"
     - name: build-image-index
       value: "false"
   pipelineRef:
