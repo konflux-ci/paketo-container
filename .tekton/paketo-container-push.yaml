@@ -32,6 +32,7 @@ spec:
          {"type": "gomod", "path": "jam"},
          {"type": "gomod", "path": "create-package"},
          {"type": "gomod", "path": "pack"},
+         {"type": "gomod", "path": "dockerfile-json"},
          {"type": "rpm", "path": "."}]
     - name: hermetic
       value: "true"
