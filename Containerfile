@@ -5,7 +5,7 @@ RUN dnf -y install golang gcc
 
 # Build dockerfile-json tool
 WORKDIR /go/src/buildpacks/dockerfile-json
-COPY toml/ .
+COPY dockerfile-json/ .
 RUN CGO_ENABLED=0 GOTOOLCHAIN=go1.23.0 go build -ldflags "-s -w" -o dockerfile-json .
 
 # Build toml: Go mod version: 1.22.0
