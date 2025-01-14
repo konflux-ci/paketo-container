@@ -3,6 +3,11 @@ FROM registry.fedoraproject.org/fedora:40 as builder
 
 RUN dnf -y install golang gcc
 
+# Build dockerfile-json tool
+WORKDIR /go/src/buildpacks/dockerfile-json
+COPY toml/ .
+RUN CGO_ENABLED=0 GOTOOLCHAIN=go1.23.0 go build -ldflags "-s -w" -o dockerfile-json .
+
 # Build toml: Go mod version: 1.22.0
 WORKDIR /go/src/buildpacks/toml
 COPY toml/ .
@@ -28,10 +33,11 @@ RUN CGO_ENABLED=0 GOTOOLCHAIN=go1.23.0 go build -ldflags="-s -w" -o create-packa
 FROM registry.fedoraproject.org/fedora:40
 RUN dnf -y install gettext jq podman
 
-COPY --from=builder /go/src/buildpacks/toml/tomljson                   /usr/bin/tomljson
-COPY --from=builder /go/src/buildpacks/pack/pack                       /usr/bin/pack
-COPY --from=builder /go/src/buildpacks/jam/jam                         /usr/bin/jam
-COPY --from=builder /go/src/buildpacks/create-package/create-package   /usr/bin/create-package
+COPY --from=builder /go/src/buildpacks/dockerfile-json/dockerfile-json   /usr/bin/dockerfile-json
+COPY --from=builder /go/src/buildpacks/toml/tomljson                     /usr/bin/tomljson
+COPY --from=builder /go/src/buildpacks/pack/pack                         /usr/bin/pack
+COPY --from=builder /go/src/buildpacks/jam/jam                           /usr/bin/jam
+COPY --from=builder /go/src/buildpacks/create-package/create-package     /usr/bin/create-package
 
 WORKDIR /workdir
 
