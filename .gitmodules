@@ -12,3 +12,6 @@
 	path = create-package
 	url = https://github.com/redhat-buildpacks/fork-libpak.git
 	branch = bump-go-version
+[submodule "dockerfile-json"]
+	path = dockerfile-json
+	url = https://github.com/konflux-ci/dockerfile-json.git

@@ -10,6 +10,7 @@ Such applications are declared as [git submodules](.gitmodules) and listed herea
 - [jam](https://github.com/redhat-buildpacks/fork-jam),
 - [create-package](https://github.com/redhat-buildpacks/fork-libpak),
 - [toml](https://github.com/pelletier/go-toml) lib
+- [dockerfile-json](https://github.com/keilerkonzept/dockerfile-json)
 
 The commands to build them, to move the binary within the `/usr/bin` folder, etc. are declared part of the [Dockerfile](Containerfile).
 Such a Dockerfile is build using the konflux [pipeline](.tekton/build-pipeline.yaml) - see task `build-container`.
