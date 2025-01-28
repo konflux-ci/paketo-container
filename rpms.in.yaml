@@ -8,3 +8,8 @@ packages:
   - podman
   - jq
   - gettext
+  - buildah
+arches:
+  # The list of architectures can be set in the config file. Any `--arch` option set
+  # on the command line will override this list.
+  - x86_64

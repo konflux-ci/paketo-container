@@ -31,7 +31,7 @@ RUN CGO_ENABLED=0 GOTOOLCHAIN=go1.23.0 go build -ldflags="-s -w" -o create-packa
 # Rebase on ubi9
 #FROM registry.access.redhat.com/ubi9:latest@sha256:9e6a89ab2a9224712391c77fab2ab01009e387aff42854826427aaf18b98b1ff
 FROM registry.fedoraproject.org/fedora:40
-RUN dnf -y install gettext jq podman
+RUN dnf -y install gettext jq podman buildah
 
 COPY --from=builder /go/src/buildpacks/dockerfile-json/dockerfile-json   /usr/bin/dockerfile-json
 COPY --from=builder /go/src/buildpacks/toml/tomljson                     /usr/bin/tomljson

@@ -25,6 +25,13 @@ arches:
     name: binutils-gold
     evr: 2.41-34.fc40
     sourcerpm: binutils-2.41-34.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/b/buildah-1.35.1-1.fc40.x86_64.rpm
+    repoid: fedora
+    size: 10473774
+    checksum: sha256:8731827bdb5f5fd5e3b6187606567e1aeb73430d60dfdceb3ec0924b475325f8
+    name: buildah
+    evr: 1.35.1-1.fc40
+    sourcerpm: buildah-1.35.1-1.fc40.src.rpm
   - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/c/catatonit-0.1.7-22.fc40.x86_64.rpm
     repoid: fedora
     size: 329545
