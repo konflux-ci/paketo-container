@@ -33,7 +33,8 @@ spec:
          {"type": "gomod", "path": "create-package"},
          {"type": "gomod", "path": "pack"},
          {"type": "gomod", "path": "dockerfile-json"},
-         {"type": "rpm", "path": "."}]
+         {"type": "rpm", "path": "."},
+         {"type": "pip", "path": "."}]
     - name: hermetic
       value: "true"
     - name: dev-package-managers
