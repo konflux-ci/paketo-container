@@ -44,6 +44,7 @@ rpm-lockfile-prototype rpms.in.yaml
 **Note**: Upstream documentation: https://konflux-ci.dev/docs/how-tos/configuring/prefetching-dependencies/#enabling-prefetch-builds-for-rpm
 
 OR to run the tool using a container on macOS/Windows machines
+
 ```bash
 container_dir=./work
 podman run --rm -v $PWD:$container_dir quay.io/svghadi/rpm-lockfile-prototype:latest --outfile=$container_dir/rpms.lock.yaml $container_dir/rpms.in.yaml
