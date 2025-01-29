@@ -508,6 +508,20 @@ arches:
     name: protobuf-c
     evr: 1.5.0-3.fc40
     sourcerpm: protobuf-c-1.5.0-3.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/python-unversioned-command-3.12.2-2.fc40.noarch.rpm
+    repoid: fedora
+    size: 10388
+    checksum: sha256:8f66b8557f9d77c4278ff259d8b338d32176f03844b6be46c576e471fdd977e8
+    name: python-unversioned-command
+    evr: 3.12.2-2.fc40
+    sourcerpm: python3.12-3.12.2-2.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/python3-3.12.2-2.fc40.x86_64.rpm
+    repoid: fedora
+    size: 27631
+    checksum: sha256:2970577819ed06391f4aaac7f64c584adf40df54a694b1f790a165604c13111e
+    name: python3
+    evr: 3.12.2-2.fc40
+    sourcerpm: python3.12-3.12.2-2.fc40.src.rpm
   - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/python3-fb-re2-1.0.7-15.fc40.x86_64.rpm
     repoid: fedora
     size: 24063
@@ -515,6 +529,20 @@ arches:
     name: python3-fb-re2
     evr: 1.0.7-15.fc40
     sourcerpm: python-fb-re2-1.0.7-15.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/python3-libs-3.12.2-2.fc40.x86_64.rpm
+    repoid: fedora
+    size: 9592491
+    checksum: sha256:9646b473191a96ffa552126c993d5ccb6106e32d749c0ef24eed051690c5bae1
+    name: python3-libs
+    evr: 3.12.2-2.fc40
+    sourcerpm: python3.12-3.12.2-2.fc40.src.rpm
+  - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/python3-pip-23.3.2-1.fc40.noarch.rpm
+    repoid: fedora
+    size: 3307067
+    checksum: sha256:fb066117ac8485a335453c5ead87b6a44405dd4944bc6df5108ff2f9bce9375f
+    name: python3-pip
+    evr: 23.3.2-1.fc40
+    sourcerpm: python-pip-23.3.2-1.fc40.src.rpm
   - url: https://kojipkgs.fedoraproject.org/compose/40/latest-Fedora-40/compose/Everything/x86_64/os/Packages/p/python3-zombie-imp-0.0.2-5.fc40.noarch.rpm
     repoid: fedora
     size: 29804
