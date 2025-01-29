@@ -34,6 +34,7 @@ FROM registry.fedoraproject.org/fedora:40
 RUN dnf -y install gettext jq podman buildah python pip
 
 # Install the Python modules collected by cachi2
+COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 COPY --from=builder /go/src/buildpacks/dockerfile-json/dockerfile-json   /usr/bin/dockerfile-json
