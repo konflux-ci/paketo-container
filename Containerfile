@@ -34,6 +34,7 @@ FROM registry.fedoraproject.org/fedora:40
 RUN dnf -y install gettext jq podman buildah python pip
 
 # Install the Python modules collected by cachi2
+WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
