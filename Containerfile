@@ -33,8 +33,8 @@ RUN CGO_ENABLED=0 GOTOOLCHAIN=go1.23.0 go build -ldflags="-s -w" -o create-packa
 FROM registry.fedoraproject.org/fedora:40
 RUN dnf -y install gettext jq podman buildah python pip
 
-# Python modules
-RUN pip install tomli_w
+# Install the Python modules collected by cachi2
+RUN pip install -r requirements.txt
 
 COPY --from=builder /go/src/buildpacks/dockerfile-json/dockerfile-json   /usr/bin/dockerfile-json
 COPY --from=builder /go/src/buildpacks/toml/tomljson                     /usr/bin/tomljson
