@@ -4,6 +4,10 @@
 #
 #    pip-compile --generate-hashes --strip-extras requirements.in
 #
+flit-core==3.10.1 \
+    --hash=sha256:66e5b87874a0d6e39691f0e22f09306736b633548670ad3c09ec9db03c5662f7 \
+    --hash=sha256:cb31a76e8b31ad3351bb89e531f64ef2b05d1e65bd939183250bf81ddf4922a8
+    # via -r requirements.in
 tomli-w==1.2.0 \
     --hash=sha256:188306098d013b691fcadc011abd66727d3c414c571bb01b1a174ba8c983cf90 \
     --hash=sha256:2dd14fac5a47c27be9cd4c976af5a12d87fb1f0b4512f81d69cce3b35ae25021
