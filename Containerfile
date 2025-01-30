@@ -28,6 +28,7 @@ COPY create-package/ .
 RUN CGO_ENABLED=0 GOTOOLCHAIN=go1.23.0 go build -ldflags="-s -w" -o create-package -a ./cmd/create-package/main.go
 
 FROM registry.fedoraproject.org/fedora:40
+# Install the rpm collected by cachi2
 RUN dnf -y install gettext jq podman buildah python pip
 
 # Install the Python modules collected by cachi2
