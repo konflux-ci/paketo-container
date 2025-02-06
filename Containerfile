@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora:40 as builder
+FROM registry.fedoraproject.org/fedora:43 as builder
 
 RUN dnf -y install golang gcc
 
@@ -27,7 +27,7 @@ WORKDIR /go/src/buildpacks/create-package
 COPY create-package/ .
 RUN CGO_ENABLED=0 GOTOOLCHAIN=go1.23.0 go build -ldflags="-s -w" -o create-package -a ./cmd/create-package/main.go
 
-FROM registry.fedoraproject.org/fedora:40
+FROM registry.fedoraproject.org/fedora:43
 # Install the rpm collected by cachi2
 RUN dnf -y install gettext jq podman buildah python pip
 
